@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/600c21d011.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Papier kamień nożyce</title>
+</head>
+<body>
+    <div class="header">
+       <div class="titleBox">
+        <h1>KAMIEŃ | PAPIER | NOŻYCE</h1>
+    </div>
+    <div class="scoreBox">
+        <span class="playerBadge">TY</span>
+        <p class="playerPoints">0</p>
+        <p class="computerPoints">0</p>
+        <span class="computerBadge">BOT</span>
+    </div> 
+    </div>
+    <div class="cards">
+        <button class="rock"><i class="fa-regular fa-hand-back-fist"></i></button>
+        <button class="paper"><i class="fa-regular fa-hand"></i></button>
+        <button class="scissors"><i class="fa-regular fa-hand-scissors"></i></button>
+    </div>
+    <div class="result">
+        <p class="yourChoise">Wybrałeś/aś: </p>
+        <p class="computerChoise">Komputer wybrał: </p>
+
+        <span class="winAlert disable">!WYGRANA RUNDA!</span>
+        <span class="drawAlert disable">REMIS</span>
+        <span class="lostAlert disable">PRZEGRANA RUNDA</span>
+    </div>
+    <button class="resetBtn disable">RESET</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
